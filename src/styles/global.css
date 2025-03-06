@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "../../node_modules/preline/variants.css";
+
+:root {
+    --color-dark-blue: #181f3a;
+    --color-electric-blue: #5a6cf3;
+    --color-aqua-green: #3df2c7;
+    --color-vibrant-purple: #9d3df2;
+    --color-light-gray: #eaeaf5;
+}
+
+@theme {
+    --color-dark-blue: #181f3a;
+    --color-electric-blue: #5a6cf3;
+    --color-aqua-green: #3df2c7;
+    --color-vibrant-purple: #9d3df2;
+    --color-light-gray: #eaeaf5;
+
+    --font-family-Coolvetica: "Coolvetica", sans-serif;
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url("/public/fonts/Coolvetica.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Poppins";
+    background-color: var(--color-dark-blue);
+}
